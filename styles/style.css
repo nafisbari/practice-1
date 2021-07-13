@@ -141,17 +141,14 @@ hr{
         display: grid;
         grid-template-columns: repeat( 1, 1fr);
     }
-    .player{
-        flex-direction: column;
-        
-    }
-    .blog-details{
+    
+    /* .blog-details{
         flex-direction: column;
         align-items: center;
     
-    }
+    } */
 
-    
+
 }
 @media only screen and (min-width: 689px) and (max-width: 992px) {
     .container{
