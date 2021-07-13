@@ -129,6 +129,43 @@ hr{
     border-radius: 14.69px;
     padding: 7px 10px 5px 10px;
 }
+
 /*--------------------
     Media Querry
 ---------------------*/
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .top-players, .blogs, .courses{
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+        
+    }
+    .blog-details{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .top-players, .courses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+    
+}
