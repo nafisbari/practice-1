@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 main{
     display: flex;
@@ -23,6 +24,56 @@ hr{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/*--------------------
+    Nav Bar
+---------------------*/
+header{
+    background-color: #562EFF;
+    /* margin: 0; */
+    height: 94px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+.logo img{
+    width: 40px;
+    height: 51px;
+}
+   
+.profile{
+    align-items: center;
+}
+.logo{
+     display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.profile{
+    display: flex;
+    align-items: center;
+   
+}
+ .profile h3{
+    font-size: 16px;
+    color: #FFFFFF;
+ }
+
+ .profile-nav:hover {
+     padding: 15px;
+     background-color: #9F9F9F;
+
+ }
+
 /*--------------------
     Top Player 
 ---------------------*/
@@ -140,6 +191,12 @@ hr{
     Media Querry
 ---------------------*/
 @media only screen and (max-width: 688px) {
+    .profile-nav{
+        display: none;
+    }
+    .navbar{
+     justify-content: space-between;
+    }
     .container{
         width: 100%;
         margin-left: 15px;
@@ -166,6 +223,7 @@ hr{
 
 }
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+    
     .container{
         width: 100%;
     }
@@ -181,3 +239,6 @@ hr{
     
     
 }
+/*  */
+/*  */
+/*  */
